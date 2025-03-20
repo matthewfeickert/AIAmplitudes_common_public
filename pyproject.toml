@@ -3,7 +3,7 @@ requires = ["hatchling", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 [project]
-name = "AIAmplitudes_common_public"
+name = "aiamplitudes-common"
 dynamic = ["version"]
 authors = [
   { name="Garrett Merz", email="garrett.merz@wisc.edu" },
