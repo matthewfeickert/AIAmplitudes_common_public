@@ -4,3 +4,5 @@
 .idea/*
 *.pyc
 */__pycache__/*
+
+src/aiamplitudes_common/_version.py
