@@ -1,5 +1,5 @@
 import re,os
-from AIAmplitudes_common_public.download_data import _cache_path
+from aiamplitudes_common.download_data import _cache_path
 from fractions import Fraction
 relpath=_cache_path(None)
 
