@@ -86,8 +86,9 @@ aiamplitudes-common = { path = ".", editable = true }
 [tool.pixi.feature.build.dependencies]
 uv = "*"
 
-[tool.pixi.feature.build.tasks]
-build = """
+[tool.pixi.feature.build.tasks.build]
+description = "Build a sdist and wheel from the project"
+cmd = """
 rm -rf dist && \
 uvx --from build pyproject-build && \
 uvx twine check --strict dist/*
