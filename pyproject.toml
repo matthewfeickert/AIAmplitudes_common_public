@@ -35,6 +35,7 @@ dependencies=[
   "tensorboard>=2.12.3",
   "einops>=0.7.0",
   "matplotlib>=3.7.1",
+  "beautifulsoup4>=4.0.0",
 ]
 
 [project.urls]
@@ -75,6 +76,7 @@ pandas = ">=2.2.3,<3"
 wandb = ">=0.15.8,<0.20"
 matplotlib = ">=3.7.1,<4"
 einops = ">=0.7.0,<0.9"
+beautifulsoup4 = ">=4.13.3,<5"
 
 [tool.pixi.pypi-dependencies]
 aiamplitudes-common = { path = ".", editable = true }
