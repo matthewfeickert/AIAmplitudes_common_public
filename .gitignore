@@ -6,3 +6,7 @@
 */__pycache__/*
 
 src/aiamplitudes_common/_version.py
+
+# pixi environments
+.pixi
+*.egg-info
