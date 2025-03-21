@@ -82,3 +82,16 @@ beautifulsoup4 = ">=4.13.3,<5"
 aiamplitudes-common = { path = ".", editable = true }
 
 [tool.pixi.tasks]
+
+[tool.pixi.feature.build.dependencies]
+uv = "*"
+
+[tool.pixi.feature.build.tasks]
+build = """
+rm -rf dist && \
+uvx --from build pyproject-build && \
+uvx twine check --strict dist/*
+"""
+
+[tool.pixi.environments]
+build = {features = ["build"], no-default-feature = true}
