@@ -175,3 +175,8 @@ cython_debug/
 
 # version
 src/aiamplitudes_common_public/_version.py
+
+# pixi environments
+.pixi
+*.egg-info
+pixi.lock
